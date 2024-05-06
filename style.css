@@ -11,5 +11,5 @@ main, html{
     height: 75vh;
     margin: auto;
     border: 1px solid black;
-    cursor: url(./space\ hunt\ crosshair.png), auto;
+    cursor: url(./space\ hunt\ crosshair.png) 16 16, auto;
 }
