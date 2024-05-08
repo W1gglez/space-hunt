@@ -11,12 +11,15 @@
     <title>Space Hunt</title>
 </head>
 <body>
-    <div>
+    <header>
         <h1 id="title">Space Hunt</h1>
-    </div>
+    </header>
     <main>
-        <button onclick="startGame(event)">Start</button><button onclick="resetGame(event)">Reset</button>
+        <div id="game-controls">
+            <button onclick="startGame(event)">Start</button><button onclick="resetGame(event)">Reset</button>
+        </div>
         <div id="play-area">
+            <p>Score: <span id="score">0</span></p>
         </div>
     </main>
     
