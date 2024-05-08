@@ -1,9 +1,18 @@
 main, html{
     margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    background: rgb(25,0,36);
+    background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(99,9,121,1) 35%, rgba(201,0,255,1) 100%);
+    font-family: Honk, sans-serif;
+
 }
 
 #title{
+    margin: auto;
     text-align: center;
+    color: white;
+    font-size: 10vw;
 }
 
 #play-area{
@@ -12,4 +21,20 @@ main, html{
     margin: auto;
     border: 1px solid black;
     cursor: url(./space\ hunt\ crosshair.png) 16 16, auto;
+    background-image: url(./space-hunt-background.png);
+}
+
+button{
+    margin: 12px;
+    font-size: 24px;
+    padding: 2px 16px;
+    font-family: Honk, sans-serif;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+button:hover{
+    transform: scale(1.25)
 }
